@@ -9,9 +9,9 @@ const WHATSAPP_LINK =
   "https://wa.me/919867904334?text=Hi%20DO%20Originals,%20I'm%20interested%20in%20discussing%20a%20video%20project";
 
 const HEADLINE_LINES = [
-  "Videos that turn",
-  "viewers into",
-  "paying customers.",
+  "What Vikrant does",
+  "for you and",
+  "your business.",
 ];
 
 export default function Hero() {
