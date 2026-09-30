@@ -4,15 +4,13 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import RevealWrapper from "@/components/ui/RevealWrapper";
-import MagneticButton from "@/components/ui/MagneticButton";
-import { FaInstagram, FaYoutube } from "react-icons/fa6";
-import { FiMail } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa6";
 
 export default function Footer() {
   const [copiedPhone, setCopiedPhone] = useState(false);
-  const email = "dooriginals08@gmail.com";
+  const email = "vikrant4334@gmail.com";
   const whatsappNumber = "+91 98679 04334";
-  const whatsappLink = "https://wa.me/919867904334?text=Hi%20DO%20Originals,%20I'm%20interested%20in%20working%20together";
+  const whatsappLink = "https://wa.me/919867904334?text=Hi%20Vikrant,%20I'm%20an%20influencer%20interested%20in%20collaborating%20on%20content";
 
   const handleCopyPhone = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -35,7 +33,7 @@ export default function Footer() {
           {/* Top row: Section Eyebrow + Live Availability Pill */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="eyebrow text-accent">04 / DIRECT CONTACT & BOOKING</span>
+              <span className="eyebrow text-accent">03 / FOR INFLUENCERS &amp; CREATORS</span>
               <span className="h-px w-8 bg-accent/40" />
             </div>
 
@@ -46,19 +44,19 @@ export default function Footer() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
               </span>
               <span className="font-mono text-[11px] uppercase tracking-wider text-paper-dim">
-                Accepting select projects for Q2 / Q3 2026
+                Accepting Select Influencers &amp; Creators
               </span>
             </div>
           </div>
 
-          {/* Big Editorial Headline */}
+          {/* Big Editorial Headline tailored for influencers */}
           <div className="max-w-4xl space-y-4">
             <h2 className="headline-display text-paper">
-              Let&apos;s cut something{" "}
-              <span className="italic font-light text-paper">remarkable.</span>
+              Ready to scale your influence &amp;{" "}
+              <span className="italic font-light text-paper">dominate the feed?</span>
             </h2>
             <p className="text-base sm:text-lg text-paper-dim max-w-2xl font-light leading-relaxed">
-              Have a commercial reel, podcast series, or long-form documentary that needs relentless pacing and cinematic grade? Reach out directly—no forms, no friction.
+              You focus on filming and being the face of your brand. I&apos;ll handle the storytelling, high-retention cuts, dynamic sound design, and viral pacing that keep viewers hooked and boost your followers. Reach out directly—let&apos;s talk about your channel.
             </p>
           </div>
 
@@ -95,21 +93,17 @@ export default function Footer() {
           {/* Secondary Direct Channels Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-10 border-t border-line/60">
             {/* Direct Email */}
-            <div className="space-y-3">
+            <div className="space-y-2">
               <span className="eyebrow text-paper-dim text-[11px]">Direct Email</span>
-              <p className="font-display text-xl text-paper font-light break-all sm:break-normal">{email}</p>
-              <div className="pt-1">
-                <MagneticButton
-                  href={`mailto:${email}`}
-                  className="group inline-flex items-center gap-2.5 border border-line bg-paper/5 px-4 py-2 text-xs uppercase tracking-[0.14em] font-medium text-paper transition-all duration-300 hover:border-accent hover:bg-accent/10 hover:text-accent"
-                >
-                  <FiMail className="text-sm text-accent group-hover:scale-110 transition-transform duration-200" />
-                  <span>Send an Email</span>
-                  <span className="text-accent group-hover:translate-x-1 transition-transform duration-200">
-                    ↗
-                  </span>
-                </MagneticButton>
-              </div>
+              <a
+                href={`mailto:${email}`}
+                className="font-display text-xl sm:text-2xl text-paper font-light break-all sm:break-normal hover:text-accent transition-colors block"
+              >
+                {email}
+              </a>
+              <p className="text-xs text-paper-dim font-mono uppercase tracking-wider">
+                Direct Line • No Forms, No Delay
+              </p>
             </div>
 
             {/* Studio Location */}
@@ -126,7 +120,7 @@ export default function Footer() {
               <span className="eyebrow text-paper-dim text-[11px]">Response Time</span>
               <p className="font-display text-xl text-paper font-light">&lt; 24 Hour Replies</p>
               <p className="text-xs text-paper-dim font-mono uppercase tracking-wider">
-                Direct Line to Lead Editor &amp; Colorist
+                Direct Line to Vikrant • Built for Creators
               </p>
             </div>
           </div>
@@ -144,44 +138,33 @@ export default function Footer() {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 className="group inline-flex items-center transition-all duration-300 select-none cursor-pointer"
-                aria-label="DO Originals Home"
+                aria-label="Vikrant Nalawade Home"
               >
                 <Image
-                  src="/logo-cutout.png"
-                  alt="DO Originals"
-                  width={140}
-                  height={106}
-                  className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                  src="/logo-vikrant.png"
+                  alt="Vikrant Nalawade"
+                  width={180}
+                  height={118}
+                  className="h-[36px] sm:h-[42px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </Link>
 
               <p className="font-mono text-[11px] uppercase tracking-wider text-paper-dim/80">
-                © {new Date().getFullYear()} DO Originals. All rights reserved.
+                © {new Date().getFullYear()} Vikrant Nalawade. All rights reserved.
               </p>
             </div>
 
-            {/* Right: Instagram + YouTube with react-icons */}
+            {/* Right: Instagram */}
             <div className="flex items-center gap-6 sm:gap-8">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/thatjournoguy?stkn=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2.5 font-body text-xs sm:text-sm uppercase tracking-[0.16em] text-paper-dim transition-colors duration-200 hover:text-paper relative py-1 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-accent after:transition-all after:duration-300 hover:after:w-full"
-                aria-label="Follow DO Originals on Instagram"
+                aria-label="Follow Vikrant Nalawade on Instagram (@thatjournoguy)"
               >
                 <FaInstagram className="text-base text-paper-dim transition-all duration-300 group-hover:text-accent group-hover:scale-115" />
                 <span>Instagram</span>
-              </a>
-
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-2.5 font-body text-xs sm:text-sm uppercase tracking-[0.16em] text-paper-dim transition-colors duration-200 hover:text-paper relative py-1 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-accent after:transition-all after:duration-300 hover:after:w-full"
-                aria-label="Subscribe to DO Originals on YouTube"
-              >
-                <FaYoutube className="text-base text-paper-dim transition-all duration-300 group-hover:text-accent group-hover:scale-115" />
-                <span>YouTube</span>
               </a>
             </div>
           </div>

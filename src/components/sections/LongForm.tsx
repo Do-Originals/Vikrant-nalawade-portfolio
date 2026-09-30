@@ -22,60 +22,61 @@ interface LongFormProject {
 
 const PROJECTS: LongFormProject[] = [
   {
-    id: "outdoor-1",
-    category: "Outdoor",
-    categoryLabel: "Outdoor & Travel Film",
-    tag: "OUTDOOR & TRAVEL FILM",
-    title: "Cinematic Outdoor Film",
+    id: "podcast-1",
+    category: "Podcast",
+    categoryLabel: "Podcast",
+    tag: "EPISODIC & CREATOR INTERVIEW",
+    title: "Creator Strategy & Audience Dynamics",
     description:
-      "A high-impact cinematic visual expedition capturing vast natural landscapes, fluid movement, and immersive atmosphere with television-grade cinematography.",
-    deliverables: "Outdoor Master • Social Cutdowns • Audio Mastering",
-    duration: "01:45 Master",
+      "Deep-dive studio interview exploring growth mechanics, audience psychology, and content longevity with broadcast sound mastering and fluid multi-angle switching.",
+    deliverables: "4K Multicam Master • Spatial Audio Clean • Dynamic Color Science",
+    duration: "48:20 Episode",
     videoSrc:
-      "https://res.cloudinary.com/akjttfwt/video/upload/AQMjMClgiGnboMqYtzD5Mg5Y7YTEibymko8uC8Fna0KH1zssJw1bi5UjK8wIP5hqVFCvTQzNRWD7y_rC2061iBd6fl-t-1eIqIILFSM_rxnjpg.mp4",
+      "https://stream.mux.com/ZjqqtdeUw02qnEjiKkUHT00QkJGYvUrPtOlYmzLVdObIg.m3u8",
     fallbackSrc:
-      "https://res.cloudinary.com/akjttfwt/video/upload/AQMjMClgiGnboMqYtzD5Mg5Y7YTEibymko8uC8Fna0KH1zssJw1bi5UjK8wIP5hqVFCvTQzNRWD7y_rC2061iBd6fl-t-1eIqIILFSM_rxnjpg.mp4",
+      "https://stream.mux.com/ZjqqtdeUw02qnEjiKkUHT00QkJGYvUrPtOlYmzLVdObIg.m3u8",
     poster:
-      "https://res.cloudinary.com/akjttfwt/video/upload/so_1,w_1200,q_auto,f_auto/AQMjMClgiGnboMqYtzD5Mg5Y7YTEibymko8uC8Fna0KH1zssJw1bi5UjK8wIP5hqVFCvTQzNRWD7y_rC2061iBd6fl-t-1eIqIILFSM_rxnjpg.jpg",
+      "https://image.mux.com/ZjqqtdeUw02qnEjiKkUHT00QkJGYvUrPtOlYmzLVdObIg/thumbnail.jpg?time=2",
+    muxPlaybackId: "ZjqqtdeUw02qnEjiKkUHT00QkJGYvUrPtOlYmzLVdObIg",
   },
   {
-    id: "outdoor-2",
-    category: "Outdoor",
-    categoryLabel: "Outdoor & Adventure",
-    tag: "OUTDOOR & ADVENTURE",
-    title: "High-Impact Outdoor Expedition",
+    id: "podcast-2",
+    category: "Podcast",
+    categoryLabel: "Podcast",
+    tag: "LONG-FORM DIALOGUE",
+    title: "The Founder's Playbook: Unfiltered",
     description:
-      "Dynamic outdoor storytelling capturing raw adventure, dramatic vistas, and emotional engagement with television-grade cinematography.",
-    deliverables: "Full 4K Master • Color Grade • Sound Mix",
-    duration: "01:30 Master",
+      "High-retention conversational podcast masterfully paced with subtle narrative reframes, dynamic graphic popups, and television-grade vocal clarity.",
+    deliverables: "Multi-Angle Master • Vocal Polish • Chapter Markers",
+    duration: "52:15 Episode",
     videoSrc:
-      "https://stream.mux.com/X2dlDyQJQBzQketuqa1uokTU1tFN8B8W005b01kTNgjdk.m3u8",
+      "https://stream.mux.com/T32ng02hrSBcFPUZSnbmSu00CzjuTuVXmNhtnwThxEz9M.m3u8",
     fallbackSrc:
-      "https://stream.mux.com/X2dlDyQJQBzQketuqa1uokTU1tFN8B8W005b01kTNgjdk.m3u8",
+      "https://stream.mux.com/T32ng02hrSBcFPUZSnbmSu00CzjuTuVXmNhtnwThxEz9M.m3u8",
     poster:
-      "https://image.mux.com/X2dlDyQJQBzQketuqa1uokTU1tFN8B8W005b01kTNgjdk/thumbnail.jpg?time=2",
-    muxPlaybackId: "X2dlDyQJQBzQketuqa1uokTU1tFN8B8W005b01kTNgjdk",
-  },
-  {
-    id: "outdoor-3",
-    category: "Outdoor",
-    categoryLabel: "Outdoor Cinematic Visuals",
-    tag: "OUTDOOR & CINEMATIC LANDSCAPE",
-    title: "Precision Outdoor Visuals",
-    description:
-      "Sweeping outdoor cinematography combined with rhythmic ambient sound design and razor-sharp post-production engineered for maximum sensory immersion.",
-    deliverables: "Outdoor Master • Social Cutdowns • Audio Mastering",
-    duration: "01:15 Master",
-    videoSrc:
-      "https://stream.mux.com/MdBUnGJ02WGa7CVatC6RDqc6CY7vvBzPaEmQfsmgjEHo.m3u8",
-    fallbackSrc:
-      "https://stream.mux.com/MdBUnGJ02WGa7CVatC6RDqc6CY7vvBzPaEmQfsmgjEHo.m3u8",
-    poster:
-      "https://image.mux.com/MdBUnGJ02WGa7CVatC6RDqc6CY7vvBzPaEmQfsmgjEHo/thumbnail.jpg?time=2",
-    muxPlaybackId: "MdBUnGJ02WGa7CVatC6RDqc6CY7vvBzPaEmQfsmgjEHo",
+      "https://image.mux.com/T32ng02hrSBcFPUZSnbmSu00CzjuTuVXmNhtnwThxEz9M/thumbnail.jpg?time=2",
+    muxPlaybackId: "T32ng02hrSBcFPUZSnbmSu00CzjuTuVXmNhtnwThxEz9M",
   },
   {
     id: "podcast-3",
+    category: "Podcast",
+    categoryLabel: "Podcast",
+    tag: "STUDIO BROADCAST & PODCAST",
+    title: "Visionary Minds: Deep Dive Session",
+    description:
+      "In-depth episodic session featuring cinematic color contrast, seamless audio denoising, and continuous retention-driven visual progression.",
+    deliverables: "Studio 4K Master • Denoised Audio Mix • LUT Grading",
+    duration: "41:30 Episode",
+    videoSrc:
+      "https://stream.mux.com/cC2Mj86enWZPTaVoOn00wUWUqcJvzy4x32RGdVpJxlAI.m3u8",
+    fallbackSrc:
+      "https://stream.mux.com/cC2Mj86enWZPTaVoOn00wUWUqcJvzy4x32RGdVpJxlAI.m3u8",
+    poster:
+      "https://image.mux.com/cC2Mj86enWZPTaVoOn00wUWUqcJvzy4x32RGdVpJxlAI/thumbnail.jpg?time=2",
+    muxPlaybackId: "cC2Mj86enWZPTaVoOn00wUWUqcJvzy4x32RGdVpJxlAI",
+  },
+  {
+    id: "podcast-4",
     category: "Podcast",
     categoryLabel: "Podcast",
     tag: "EPISODIC & INTERVIEW",
@@ -93,7 +94,7 @@ const PROJECTS: LongFormProject[] = [
     muxPlaybackId: "n802lAeSZ1fbAHpa7aE01OmN5P5BqbNvclWKNL025LgZOY",
   },
   {
-    id: "podcast-4",
+    id: "podcast-5",
     category: "Podcast",
     categoryLabel: "Podcast",
     tag: "STUDIO BROADCAST",
@@ -111,7 +112,7 @@ const PROJECTS: LongFormProject[] = [
     muxPlaybackId: "ot5QwzVhzFjO000248jElUyvqfLPxp4ScJ5RUXMj9eg8Q",
   },
   {
-    id: "podcast-5",
+    id: "podcast-6",
     category: "Podcast",
     categoryLabel: "Podcast",
     tag: "EPISODIC & CONVERSATION",
@@ -127,6 +128,24 @@ const PROJECTS: LongFormProject[] = [
     poster:
       "https://image.mux.com/oyfC401AYpQ1HbP96Kei02odzS00mIAe2DuZ006UywRvfAM/thumbnail.jpg?time=2",
     muxPlaybackId: "oyfC401AYpQ1HbP96Kei02odzS00mIAe2DuZ006UywRvfAM",
+  },
+  {
+    id: "outdoor-1",
+    category: "Outdoor",
+    categoryLabel: "Outdoor & Travel Film",
+    tag: "OUTDOOR & TRAVEL FILM",
+    title: "Cinematic Outdoor Journey",
+    description:
+      "A high-impact cinematic visual expedition capturing vast natural landscapes, fluid movement, and immersive atmosphere with broadcast-grade cinematography.",
+    deliverables: "Outdoor Master • Atmospheric Sound Mix • Color Grading",
+    duration: "01:30 Master",
+    videoSrc:
+      "https://stream.mux.com/N009102f00rP4Hdkk02PSq1dhQns43Br8vEqHBNDHJemt4A.m3u8",
+    fallbackSrc:
+      "https://stream.mux.com/N009102f00rP4Hdkk02PSq1dhQns43Br8vEqHBNDHJemt4A.m3u8",
+    poster:
+      "https://image.mux.com/N009102f00rP4Hdkk02PSq1dhQns43Br8vEqHBNDHJemt4A/thumbnail.jpg?time=2",
+    muxPlaybackId: "N009102f00rP4Hdkk02PSq1dhQns43Br8vEqHBNDHJemt4A",
   },
 ];
 
@@ -285,13 +304,32 @@ function LongFormCard({ project }: { project: LongFormProject }) {
             loop
             playsInline
             poster={project.poster}
-            preload="auto"
+            preload="none"
+            _hlsConfig={{
+              fragLoadingTimeOut: 45000,
+              fragLoadingMaxRetry: 6,
+              fragLoadingRetryDelay: 1000,
+              manifestLoadingTimeOut: 30000,
+              manifestLoadingMaxRetry: 4,
+              levelLoadingTimeOut: 30000,
+              lowLatencyMode: false,
+            }}
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
             onTimeUpdate={handleTimeUpdate}
             onLoadedMetadata={handleLoadedMetadata}
             onDurationChange={handleLoadedMetadata}
             onEnded={() => setIsPlaying(false)}
+            onError={() => {
+              if (videoRef.current && isPlaying) {
+                setTimeout(() => {
+                  if (videoRef.current) {
+                    videoRef.current.load();
+                    videoRef.current.play().catch(() => {});
+                  }
+                }, 1000);
+              }
+            }}
             className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
           />
         ) : (
@@ -302,7 +340,7 @@ function LongFormCard({ project }: { project: LongFormProject }) {
             loop
             playsInline
             poster={project.poster}
-            preload="auto"
+            preload="none"
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
             onTimeUpdate={handleTimeUpdate}
@@ -446,6 +484,7 @@ export default function LongForm() {
   return (
     <section
       id="work"
+      suppressHydrationWarning
       className="relative w-full border-b border-line py-28 md:py-36 bg-ink overflow-hidden"
     >
       <RevealWrapper>
@@ -467,7 +506,7 @@ export default function LongForm() {
             {/* Right-Aligned Supporting Copy */}
             <div className="col-span-12 lg:col-span-5 lg:text-right space-y-4">
               <p className="max-w-md lg:ml-auto text-sm sm:text-base text-paper-dim leading-relaxed">
-                Podcasts, outdoor films, and visual showcases that clearly explain what you do, answer buyer questions, and build lasting trust.
+                Full-length studio conversations, podcasts, and outdoor visual films cut with narrative depth, smooth pacing, and broadcast audio mastering.
               </p>
             </div>
           </div>

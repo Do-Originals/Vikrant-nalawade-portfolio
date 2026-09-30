@@ -10,8 +10,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 const NAV_LINKS = [
   { name: "Work", href: "#work", index: "01" },
   { name: "Reels", href: "#reels", index: "02" },
-  { name: "About", href: "#about", index: "03" },
-  { name: "Contact", href: "#contact", index: "04" },
+  { name: "Contact", href: "#contact", index: "03" },
 ];
 
 const WHATSAPP_LINK =
@@ -58,21 +57,21 @@ export default function Header() {
         }}
         className="fixed top-0 left-0 right-0 z-50 w-full transition-colors will-change-transform"
       >
-        <div className="portfolio-grid-container flex items-center justify-between py-5 md:py-6">
-          {/* Official DO Originals Transparent Logo (No white background, increased height) */}
+        <div className="portfolio-grid-container flex items-center justify-between py-4 md:py-5">
+          {/* Official Vikrant Nalawade Logo */}
           <Link
             href="#"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="group flex items-center transition-transform duration-300 hover:scale-105 select-none cursor-pointer"
-            aria-label="DO Originals Home"
+            aria-label="Vikrant Nalawade Home"
           >
             <Image
-              src="/logo-cutout.png"
-              alt="DO Originals"
-              width={200}
-              height={151}
+              src="/logo-vikrant.png"
+              alt="Vikrant Nalawade"
+              width={220}
+              height={144}
               priority
-              className="h-12 sm:h-14 md:h-16 lg:h-18 w-auto object-contain transition-all duration-300 drop-shadow-[0_2px_16px_rgba(214,17,108,0.25)]"
+              className="h-[42px] sm:h-[48px] md:h-[54px] lg:h-[60px] w-auto object-contain transition-all duration-300 drop-shadow-[0_2px_16px_rgba(214,17,108,0.25)]"
             />
           </Link>
 
@@ -173,14 +172,14 @@ export default function Header() {
               }}
               className="relative z-10 flex flex-col space-y-6 pt-4"
             >
-              {/* Brand Cue in Mobile Drawer (Transparent Logo) */}
+              {/* Brand Cue in Mobile Drawer */}
               <div className="flex items-center pb-3 border-b border-line/30 mb-2">
                 <Image
-                  src="/logo-cutout.png"
-                  alt="DO Originals Logo"
-                  width={140}
-                  height={106}
-                  className="h-12 w-auto object-contain drop-shadow-[0_2px_12px_rgba(214,17,108,0.3)]"
+                  src="/logo-vikrant.png"
+                  alt="Vikrant Nalawade Logo"
+                  width={180}
+                  height={118}
+                  className="h-[44px] sm:h-[50px] w-auto object-contain drop-shadow-[0_2px_14px_rgba(214,17,108,0.25)]"
                 />
               </div>
 
@@ -224,10 +223,10 @@ export default function Header() {
               <div className="space-y-1">
                 <span className="eyebrow text-paper-dim">Direct Inquiry</span>
                 <a
-                  href="mailto:dooriginals08@gmail.com"
+                  href="mailto:vikrant4334@gmail.com"
                   className="block font-body text-sm text-paper hover:text-accent transition-colors"
                 >
-                  dooriginals08@gmail.com
+                  vikrant4334@gmail.com
                 </a>
                 <a
                   href={WHATSAPP_LINK}

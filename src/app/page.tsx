@@ -2,8 +2,6 @@ import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import ShortForm from "@/components/sections/ShortForm";
 import LongForm from "@/components/sections/LongForm";
-import ClientMarquee from "@/components/sections/ClientMarquee";
-import About from "@/components/sections/About";
 import Footer from "@/components/sections/Footer";
 
 export default function Home() {
@@ -13,8 +11,6 @@ export default function Home() {
       <Hero />
       <ShortForm />
       <LongForm />
-      <ClientMarquee />
-      <About />
       <Footer />
     </main>
   );
