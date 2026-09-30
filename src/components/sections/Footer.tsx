@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import RevealWrapper from "@/components/ui/RevealWrapper";
 import { FaInstagram } from "react-icons/fa6";
+import "react-icons/fi";
 
 export default function Footer() {
   const [copiedPhone, setCopiedPhone] = useState(false);
